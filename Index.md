@@ -19,7 +19,7 @@ Projects
 |---------|-------------|-------|
 | AI-Assisted Sentiment Analysis: Mixue Bingcheng | Tested DeepSeek API on 17 Weibo comments about a new product launch. Achieved 75% accuracy through prompt iteration. Identified LLM limitations: sarcasm, mixed emotions, implicit risks. | [Report](./AI辅助舆情分析：蜜雪冰城_20260524143342.pdf) |
 | Competitor Social Media Monitor Prototype| A Python-based tool that generates structured competitive intelligence reports from social media text using DeepSeek API. Includes prompt engineering and automated briefing. | [GitHub](https://github.com/Sophie-Positive/Happy) |
-| LLM Sentiment Classification Test: Genshin Impact| Two-round prompt iteration on game-related comments. Accuracy improved from ~70% to ~85%. Documented bad cases including teasing, long-text instability, and unmarked requests. | [Report](./实验报告：微博：原神_20260524135758.pdf) |
+| LLM Sentiment Classification Test: Genshin Impact| Two-round prompt iteration on game-related comments. Accuracy improved from ~70% to ~85%. Documented bad cases including teasing, long-text instability, and unmarked requests. | [Report](./舆情分类项目展示_田晶盈（微博：原神）ch_20260430191143.pdf) |
 | Community Sentiment Analysis: Cyberpunk 2077 Reddit | Analyzed 15 Reddit comments using a six-step framework (topic, sentiment, risk, insight, action). Identified sentiment divergence between pre- and post-DLC players. |[Report](./cyberpunk_report.pdf.pdf)|
 
  Research Interests
