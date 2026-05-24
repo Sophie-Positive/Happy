@@ -17,10 +17,8 @@ Projects
 
 | Project | Description | Links |
 |---------|-------------|-------|
-| AI-Assisted Sentiment Analysis: Mixue Bingcheng | Tested DeepSeek API on 17 Weibo comments about a new product launch. Achieved 75% accuracy through prompt iteration. Identified LLM limitations: sarcasm, mixed emotions, implicit risks. | [Report](./AI辅助舆情分析：蜜雪冰城_20260524143342.pdf) |
 | Competitor Social Media Monitor Prototype| A Python-based tool that generates structured competitive intelligence reports from social media text using DeepSeek API. Includes prompt engineering and automated briefing. | [GitHub](https://github.com/Sophie-Positive/Happy) |
-| LLM Sentiment Classification Test: Genshin Impact| Two-round prompt iteration on game-related comments. Accuracy improved from ~70% to ~85%. Documented bad cases including teasing, long-text instability, and unmarked requests. | [Report](./舆情分类项目展示_田晶盈（微博：原神）ch_20260430191143.pdf) |
-| Community Sentiment Analysis: Cyberpunk 2077 Reddit | Analyzed 15 Reddit comments using a six-step framework (topic, sentiment, risk, insight, action). Identified sentiment divergence between pre- and post-DLC players. |[Report](./cyberpunk_report.pdf.pdf)|
+| Community Sentiment Analysis: Cyberpunk 2077 Reddit | Analyzed 15 Reddit comments using a six-step framework (topic, sentiment, risk, insight, action). Identified sentiment divergence between pre- and post-DLC players. |[Report](./cyberpunk_report.pdf_20260524184418.pdf)|
 
  Research Interests
 
@@ -46,9 +44,8 @@ Contact
 | 项目 | 描述 | 链接 |
 |------|------|------|
 | AI辅助舆情分析：蜜雪冰城 | 基于17条微博新品预热评论测试DeepSeek API，通过多轮Prompt迭代达到75%准确率，系统识别大模型在反讽、混合情绪、隐性风险上的能力短板。 | [报告](./AI辅助舆情分析：蜜雪冰城_20260524143342.pdf) |
-| 竞品社媒监控简报生成器 | Python原型工具，调用DeepSeek API自动生成结构化竞品简报。包含Prompt工程设计与自动化输出。 | [GitHub](https://github.com/Sophie-Positive/Happy) |
+| 竞品社媒监控简报生成器 | Python原型工具，调用DeepSeek API自动生成结构化竞品简报。包含Prompt工程设计与自动化输出。 | [GitHub](https://github.com/Sophie-Positive/Happy) [Report](./cyberpunk_rep)|
 | 大模型情感分类测试：原神 | 两轮Prompt迭代，准确率从约70%提升至约85%。记录Bad Case类型：调侃、长文本不稳定、诉求未被标注等。 | [报告](./舆情分类项目展示_田晶盈（微博：原神）ch_20260430191143.pdf) |
-| 社区情绪分析：赛博朋克2077 Reddit| 基于15条Reddit评论，运用六步框架（话题、情绪、风险、洞察、行动）进行分析。识别出新老玩家之间的情绪分化。 | [Report](./[Report](./cyberpunk_report.pdf)) |
 
  研究方向
 
