@@ -19,7 +19,7 @@ Projects
 |---------|-------------|-------|
 | Competitor Social Media Monitor Prototype| A Python-based tool that generates structured competitive intelligence reports from social media text using DeepSeek API. Includes prompt engineering and automated briefing. | [GitHub](https://github.com/Sophie-Positive/Happy) |2025.4.30
 | Community Sentiment Analysis: Cyberpunk 2077 Reddit | Analyzed 15 Reddit comments using a six-step framework (topic, sentiment, risk, insight, action). Identified sentiment divergence between pre- and post-DLC players. |[Report](./cyberpunk_report.pdf_20260524184418.pdf)|2026.5.24
-| Conspiracy and community| Used online ethnography and non-participant observation to analysis small scale comments on Reddit.Result include: women being stigmatized...|[Report](./Conspiracy and community.pptx)
+| Conspiracy and community| Used online ethnography and non-participant observation to analysis small scale comments on Reddit.Result include: women being stigmatized...|[pptx](./Conspiracy and community.pptx)
 
  Research Interests
 
