@@ -1,42 +1,36 @@
- Competitor Social Media Monitor Prototype
+# Competitor Social Media Monitor Prototype
 
-> A lightweight prototype that automatically generates structured competitive intelligence reports from social media data using DeepSeek API + Python.
+> 基于 DeepSeek API 的竞品社媒舆情监控原型，自动生成结构化中文简报。
 
-🎯 What This Project Does
+## 🎯 功能特性
 
-This prototype simulates a real-world social media monitoring pipeline:
+- 模拟获取竞品社媒数据（可替换为真实 Twitter/Weibo API）
+- 调用 DeepSeek API 进行分析
+- 输出结构化中文简报：核心摘要、关键话题、市场动作、语气判断
 
-1.  Data Ingestion– Fetches competitor social media posts (mock data ready, easily replaceable with real APIs)
-2.  LLM Processing– Sends raw text to DeepSeek API with carefully designed prompts
-3.  Structured Report – Generates a Chinese competitive intelligence briefing with four dimensions:
-    - Core Summary (2-3 sentences)
-    - Key Topics (2-3 main discussion themes)
-    - Market Actions (new products, promotions, partnerships)
-    - Sentiment Analysis (positive/neutral/negative)
+## 🧪 输出示例
 
-🧪 Sample Output
+以 @OpenAI 为测试对象，生成简报如下：
 
-Test target: @OpenAI (simulated Twitter data)
+**核心摘要**  
+OpenAI 推出旗舰模型 GPT-4o，支持文本、音频、图像任意组合输入；与 Financial Times 达成合作，将实时新闻引入 ChatGPT；CEO 呼吁教育领域积极拥抱 AI。
 
- Core Summary
-OpenAI announced GPT-4o, a new flagship model capable of processing any combination of text, audio, and image input. The company also partnered with Financial Times to bring real-time journalism to ChatGPT. CEO Sam Altman publicly called for the education sector to embrace AI transformation.
+**关键话题**  
+- 多模态模型发布（GPT-4o）  
+- 高质量内容合作（Financial Times）
 
-Key Topics
-- Multimodal Model Release (GPT-4o) – A major step toward "universal" AI assistants
-- High-Quality Content Partnership – Strategic collaboration with Financial Times for data compliance and credibility
+**市场动作**  
+- 新产品：GPT-4o 发布  
+- 战略合作：FT 合作
 
- Market Actions
-- New Product: GPT-4o launch, competing with Google's multimodal models
-- Strategic Partnership**: Financial Times collaboration, signaling willingness to build commercial relationships with content publishers
+**语气判断**  
+积极、前瞻、自信
 
-Sentiment
-Positive – The tone is innovative and confident around GPT-4o, pragmatic and responsible around the media partnership, and forward-looking around CEO's education remarks.
+## 🛠️ 技术栈
 
-🛠️ Tech Stack
-
-| Tool | Purpose |
-|------|---------|
-| Python 3.14+ | Core programming language |
-| OpenAI SDK | Unified API interface |
-| DeepSeek API | LLM inference (cost-effective for Chinese output) |
-| Prompt Engineering | Structured system prompts for consistent output |
+| 工具 | 用途 |
+|------|------|
+| Python 3.14+ | 核心编程语言 |
+| OpenAI SDK | API 统一调用 |
+| DeepSeek API | 大模型推理 |
+| Prompt Engineering | 结构化输出控制 |
