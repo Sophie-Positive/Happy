@@ -33,12 +33,3 @@ This prototype simulates a real-world social media monitoring pipeline:
 | OpenAI SDK | Unified API interface |
 | DeepSeek API | LLM inference (cost-effective for Chinese output) |
 | Prompt Engineering | Structured system prompts for consistent output |
-
-## 📁 Project Structure
-
-## 🔧 How to Run
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Sophie-Positive/Happy.git
-cd Happy
