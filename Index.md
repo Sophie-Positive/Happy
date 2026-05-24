@@ -44,7 +44,7 @@ Contact
 | 项目 | 描述 | 链接 |
 |------|------|------|
 | AI辅助舆情分析：蜜雪冰城 | 基于17条微博新品预热评论测试DeepSeek API，通过多轮Prompt迭代达到75%准确率，系统识别大模型在反讽、混合情绪、隐性风险上的能力短板。 | [报告](./AI辅助舆情分析：蜜雪冰城_20260524143342.pdf) |
-| 竞品社媒监控简报生成器 | Python原型工具，调用DeepSeek API自动生成结构化竞品简报。包含Prompt工程设计与自动化输出。 | [GitHub](https://github.com/Sophie-Positive/Happy) [Report](./cyberpunk_rep)|
+| 竞品社媒监控简报生成器 | Python原型工具，调用DeepSeek API自动生成结构化竞品简报。包含Prompt工程设计与自动化输出。 | [GitHub](https://github.com/Sophie-Positive/Happy) [Report](./实验报告：竞品社媒监控简报生成器.pdf)|
 | 大模型情感分类测试：原神 | 两轮Prompt迭代，准确率从约70%提升至约85%。记录Bad Case类型：调侃、长文本不稳定、诉求未被标注等。 | [报告](./舆情分类项目展示_田晶盈（微博：原神）ch_20260430191143.pdf) |
 
  研究方向
