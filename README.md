@@ -1,4 +1,4 @@
-# Competitor Social Media Monitor Prototype
+ Competitor Social Media Monitor Prototype
 
 > A lightweight Python prototype that automatically generates structured competitive intelligence reports from social media data using DeepSeek API.
 
@@ -33,7 +33,7 @@ Test target: @OpenAI (simulated Twitter data)
 | OpenAI SDK | Unified API interface |
 | DeepSeek API | LLM inference (cost-effective for Chinese output) |
 | Prompt Engineering | Structured system prompts for consistent output |
-## 🔍 Methodological Reflection
+🔍 Methodological Reflection
 
 This prototype is not an objective monitor but a situated analysis. Three limitations are acknowledged:
 
@@ -44,8 +44,8 @@ This prototype is not an objective monitor but a situated analysis. Three limita
 Future iteration: Add manual qualitative coding for 5% of sampled data to triangulate LLM output.
 
 
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+!/usr/bin/env python3
+ -*- coding: utf-8 -*-
 """
 话语漂移分析：企业危机公关的自我修正史
 Discourse Self-Correction Monitor
@@ -58,11 +58,11 @@ def generate_discourse_table():
     print("话语漂移分析：以 [竞品X] 的 [Y事件] 为例")
     print("="*60 + "\n")
     
-    # 表头
+     表头
     print("时间窗口".ljust(12) + "主导叙事".ljust(25) + "回避策略".ljust(22) + "非人化语言".ljust(18) + "修正痕迹")
     print("-" * 95)
     
-    # 数据行
+    数据行
     rows = [
         ("事件前3个月", "改变世界，开放透明", "无", "低频", "—"),
         ("爆发后72h", "沉默/我们注意到讨论", "完全沉默 → 模糊主语", "高频(被动语态占82%)", "明显断裂"),
