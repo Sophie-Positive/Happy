@@ -25,6 +25,13 @@ Test target: @OpenAI (simulated Twitter data)
 | Market Actions| GPT-4o launch / FT strategic collaboration |
 | Sentiment | Positive, forward-looking, confident |
 
+🔍 Methodological Reflection
+This prototype is not an objective monitor but a situated analysis. Three limitations are acknowledged:
+1. API bias – DeepSeek's Chinese-language optimization may flatten cultural nuance in multi-lingual data
+2. Temporal myopia – Real-time monitoring obscures long-term discursive shifts
+3. Platform determinism– Current data assumes X/Reddit represent all user voices, ignoring TikTok/WeChat silos
+Future iteration: Add manual qualitative coding for 5% of sampled data to triangulate LLM output.
+
  🛠️ Tech Stack
 
 | Tool | Purpose |
@@ -33,12 +40,3 @@ Test target: @OpenAI (simulated Twitter data)
 | OpenAI SDK | Unified API interface |
 | DeepSeek API | LLM inference (cost-effective for Chinese output) |
 | Prompt Engineering | Structured system prompts for consistent output |
-🔍 Methodological Reflection
-
-This prototype is not an objective monitor but a situated analysis. Three limitations are acknowledged:
-
-1. API bias – DeepSeek's Chinese-language optimization may flatten cultural nuance in multi-lingual data
-2. Temporal myopia – Real-time monitoring obscures long-term discursive shifts
-3. Platform determinism– Current data assumes X/Reddit represent all user voices, ignoring TikTok/WeChat silos
-
-Future iteration: Add manual qualitative coding for 5% of sampled data to triangulate LLM output.
